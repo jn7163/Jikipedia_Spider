@@ -35,7 +35,6 @@ class DouyinCrawl:
                                 # 1、python3里面默认编码是unicode
                                 # 2、python3做dump与dumps操作时，会将中文转换成unicode编码，并以16进制方式存储，再做逆向操作时，会将unicode编码转换回中文
                                 # 即添加参数 ensure_ascii=False，它默认的是Ture
-                                print(3333333333333333333333333333333333333333333333333333333333333333333333333)
                                 json.dump(item, f,ensure_ascii=False)
                         except:
                             pass
