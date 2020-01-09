@@ -11,4 +11,4 @@ win10 chrome python3 selenium mitmproxy
 
 ## 效果：
 https://github.com/HuerFu/Jikipedia_Spider/blob/master/start.png
-![image] (https://github.com/HuerFu/Jikipedia_Spider/blob/master/result.png)
+![image](https://github.com/HuerFu/Jikipedia_Spider/blob/master/result.png)
