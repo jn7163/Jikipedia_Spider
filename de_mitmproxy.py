@@ -1,6 +1,7 @@
 import mitmproxy.http
 import json
 import time
+import os
 
 import re
 def validateTitle(title):
@@ -12,7 +13,9 @@ def validateTitle(title):
 
 class DouyinCrawl:
     def __init__(self):
-        pass
+        if not os.path.isdir("saveData"):
+            # 如果目录不存在，则创建目录存储具体游记文章
+            os.mkdir("saveData")
 
     # 拦截响应
     def response(self,  flow: mitmproxy.http.HTTPFlow):
@@ -32,6 +35,7 @@ class DouyinCrawl:
                                 # 1、python3里面默认编码是unicode
                                 # 2、python3做dump与dumps操作时，会将中文转换成unicode编码，并以16进制方式存储，再做逆向操作时，会将unicode编码转换回中文
                                 # 即添加参数 ensure_ascii=False，它默认的是Ture
+                                print(3333333333333333333333333333333333333333333333333333333333333333333333333)
                                 json.dump(item, f,ensure_ascii=False)
                         except:
                             pass
