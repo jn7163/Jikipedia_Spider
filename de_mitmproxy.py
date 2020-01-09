@@ -14,7 +14,7 @@ def validateTitle(title):
 class DouyinCrawl:
     def __init__(self):
         if not os.path.isdir("saveData"):
-            # 如果目录不存在，则创建目录存储具体游记文章
+            # 如果目录不存在，则创建保存数据的目录
             os.mkdir("saveData")
 
     # 拦截响应
@@ -41,3 +41,4 @@ class DouyinCrawl:
 addons = [
     DouyinCrawl()
 ]
+
