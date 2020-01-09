@@ -10,5 +10,7 @@ win10 chrome python3 selenium mitmproxy
 2.执行命令：`python de_selenium.py` ,调用selenium来模拟正常用户访问浏览器
 
 ## 效果：
-https://github.com/HuerFu/Jikipedia_Spider/blob/master/start.png
+运行图：
+![image](https://github.com/HuerFu/Jikipedia_Spider/blob/master/start.png)
+保存结果图：
 ![image](https://github.com/HuerFu/Jikipedia_Spider/blob/master/result.png)
