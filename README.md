@@ -1,7 +1,7 @@
 # Jikipedia_Spider
 python selenium+mitmproxy实现 小鸡词典爬虫
 
-## 环境：
+## 环境
 win10 chrome python3 selenium mitmproxy
 注意：这里安装selenium时要下载正确的对应的ChromeDriver版本
 
@@ -9,9 +9,7 @@ win10 chrome python3 selenium mitmproxy
 1.先执行命令：`mitmdump -s de_mitmproxy.py` ，启动中间人代理，可以实现对http(s)的拦截
 2.执行命令：`python de_selenium.py` ,调用selenium来模拟正常用户访问浏览器
 
-## 效果：
-运行图：
+## 运行图
 ![image](https://github.com/HuerFu/Jikipedia_Spider/blob/master/start.png)
-
-保存结果图：
+## 保存结果图
 ![image](https://github.com/HuerFu/Jikipedia_Spider/blob/master/result.png)
